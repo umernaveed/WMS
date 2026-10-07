@@ -1,0 +1,77 @@
+.wms-action-dropdown {
+    position: relative;
+    white-space: nowrap;
+}
+
+.wms-action-dropdown .dropdown-menu {
+    min-width: 170px;
+    padding: 6px 0;
+    border-radius: 8px;
+    border: 1px solid #dbe4f0;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.14);
+}
+
+.wms-action-dropdown .dropdown-menu > li > a,
+.wms-action-dropdown .wms-dropdown-button {
+    display: block;
+    width: 100%;
+    padding: 8px 14px;
+    clear: both;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    color: #263238;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.35;
+    text-align: left;
+    text-decoration: none;
+}
+
+.wms-action-dropdown .dropdown-menu > li > a:hover,
+.wms-action-dropdown .dropdown-menu > li > a:focus,
+.wms-action-dropdown .wms-dropdown-button:hover,
+.wms-action-dropdown .wms-dropdown-button:focus {
+    background: #f3f6fb;
+    color: #111827;
+}
+
+.wms-action-dropdown .wms-dropdown-form {
+    display: block;
+    margin: 0;
+}
+
+.wms-table-export-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 14px;
+}
+
+.dataTables_wrapper > .wms-table-export-toolbar {
+    margin-bottom: 12px;
+}
+
+.wms-table-export-title {
+    color: #64748b;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.wms-table-export-toolbar .btn {
+    border-color: #dbe4f0;
+    color: #334155;
+    font-weight: 700;
+    background: #fff;
+}
+
+.wms-table-export-toolbar .btn:hover,
+.wms-table-export-toolbar .btn:focus {
+    border-color: #2563eb;
+    color: #1d4ed8;
+    background: #eff6ff;
+}
